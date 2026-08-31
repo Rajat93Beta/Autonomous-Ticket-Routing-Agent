@@ -55,7 +55,7 @@ An **AI Agent** built with **Spring Boot 3** and **Spring AI** that automaticall
 
 ---
 
-## 💡 Why This Wins Interviews
+## 💡
 1. **It's "Agentic"**: You aren't just chatting; you are **acting**.
 2. **It's Enterprise-Ready**: Real companies need agents that can create Jira tickets, send emails, or update databases.
 3. **It Shows Deep Spring AI Knowledge**: Using `@Tool` and `ToolCallbackProvider` is an advanced Spring AI feature.
