@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ticket-routing-agent
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ticket_db
+    username: postgres
+    password: password
+  # Spring AI Config
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:your_dummy_key}
+      chat:
+        options:
+          model: gpt-4o-mini
+          temperature: 0.0 # Low temp for deterministic tool calls
